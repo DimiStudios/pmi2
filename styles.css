@@ -1,0 +1,100 @@
+/* paleta de colores*/
+:root { 
+    --celeste:#04bce2;
+    --naranja: #fc6c24;
+    --morado: #4c16a4;
+    --negro: #000;
+    --blanco: #fff;
+    --plomo: #8c8c8c;
+}
+
+header {
+    padding: 20px;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+
+#contact-info {
+    display: flex;
+    background-color: var(--morado);
+    padding: 20px;
+    color: var(--blanco);
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+#nav {
+    display: flex;
+    background-color: var(--blanco);
+    color: var(--blanco);
+    margin: 0;
+    top: 80%;
+    left: 20%;
+    width: 100%;
+    border-bottom: 1px solid var(--plomo);
+    padding: 3rem;
+}
+h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.logo_pmi{
+    width: 30rem;
+    height: 10rem;
+    padding: 3rem;
+}
+
+.header-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+.header-icons li {
+    margin-left: 10px;
+}
+
+.header-icons li:first-child {
+    margin-left: 0;
+} 
+
+icon {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.icon i {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--morado);
+    color: var(--blanco);
+    text-align: center;
+    padding: 10px;
+}
+  
